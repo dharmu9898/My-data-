@@ -1,0 +1,949 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+    font-size:11px;
+    font-family:Tahoma;
+    color:#67686C;
+}
+
+body 
+{
+    background-color:#E2E3E7;
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+.container
+{
+    width:994px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:White;
+    text-align:center;
+    background-image:url("../images/backborder.gif");
+    background-repeat:repeat-y;
+}
+.container_end
+{
+    width:994px;
+    height:18px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("../images/backborder_bottom.gif");
+    background-repeat:no-repeat;
+    text-align:center;
+}
+.valid_area
+{
+    width:962px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.langbar
+{
+    width:994px;
+    height:28px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-image:url("../images/backborder_top.gif");
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    padding-top:5px;
+}
+.langbar .left
+{
+    position:absolute;
+    left:20px;
+    height:11px;
+    line-height:11px;
+    top:7px;
+}
+.langbar .left .langitem
+{
+    height:11px;
+    width:16px;
+    padding-right:5px;
+}
+.langbar .right
+{
+    position:absolute;
+    right:15px;
+}
+.langbar .right a
+{
+    text-decoration:none;
+}
+.langbar .right a:hover
+{
+    text-decoration:underline;
+}
+.mainbanner
+{
+    width:962px;
+    height:208px;
+    background-image:url("../images/LogoMain.jpg");
+    background-repeat:no-repeat;
+    position:relative;
+}
+.PageBanner
+{
+    width:962px;
+    height:139px;
+    background-image:url("../images/LogoInside.jpg");
+    background-repeat:no-repeat;
+    position:relative;
+}
+.mainbanner .maintitle
+{
+    position:absolute;
+    left:190px;
+    top:33px;
+    width:350px;
+    text-align:center;
+    color:White;
+    font-size:20px;
+}
+.PageBanner .maintitle
+{
+    position:absolute;
+    left:140px;
+    top:33px;
+    width:350px;
+    text-align:center;
+    color:White;
+    font-size:20px;
+}
+.mainbanner .maintitle .owner
+{
+    font-size:14px;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;
+    color:White;
+    width:240px;
+    height:25px;
+    line-height:25px;
+}
+.PageBanner .maintitle .owner
+{
+    font-size:14px;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;
+    color:White;
+    width:240px;
+    height:25px;
+    line-height:25px;
+}
+
+.mainbanner .teaser
+{
+    color:#8CB2D6;
+    position:absolute;
+    left:363px;
+    top:128px;
+    font-family:Times New Roman;
+    font-size:18px;
+    line-height:22px;
+}
+
+.mainbanner .Testimonials
+{
+    position:absolute;
+    left:332px;
+    top:180px;
+}
+.mainbanner .OurTeam
+{
+    position:absolute;
+    left:435px;
+    top:180px;
+}
+
+.mainbanner .Contactus
+{
+    position:absolute;
+    left:538px;
+    top:180px;
+}
+
+.PageBanner .Testimonials
+{
+    position:absolute;
+    left:859px;
+    top:57px;
+}
+.PageBanner .OurTeam
+{
+    position:absolute;
+    left:859px;
+    top:85px;
+}
+
+.PageBanner .Contactus
+{
+    position:absolute;
+    left:859px;
+    top:111px;
+}
+.PageBanner .Testimonials a,
+.PageBanner .OurTeam a,
+.PageBanner .Contactus a
+{
+    height:23px;
+    line-height:23px;
+    color:White;
+    width:98px;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+}
+.PageBanner .Testimonials a:hover,
+.PageBanner .OurTeam a:hover,
+.PageBanner .Contactus a:hover
+{
+    background-color:#98B2C9;
+}
+
+.mainbanner .Testimonials a,
+.mainbanner .OurTeam a,
+.mainbanner .Contactus a
+{
+    height:24px;
+    line-height:24px;
+    color:White;
+    width:99px;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+}
+.mainbanner .Testimonials a:hover,
+.mainbanner .OurTeam a:hover,
+.mainbanner .Contactus a:hover
+{
+    background-color:#98B2C9;
+}
+
+.mainbanner .MainImage
+{
+    width:312px;
+    height:206px;
+    position:absolute;
+    top:1px;
+    right:1px;
+}
+.content
+{
+    width:960px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content .left
+{
+    width:151px;
+    background-image:url("../images/lefttop.gif");
+    background-repeat:no-repeat;
+    background-position:top;
+    float:left;
+    padding-top:15px;
+    text-align:left;
+    position:relative;
+}
+.content .left .tabs
+{
+    padding-left:15px;
+    width:125px;
+}
+.content .left .tabs a,
+.content .left .tabs .selected
+{
+    display:block;
+    text-decoration:none;
+    padding-left:15px;
+    font-size:11px;
+    line-height:14px;
+    background-image:url("../images/tabicon.gif");
+    background-repeat:no-repeat;
+    background-position:left center;
+    margin-bottom:15px;
+}
+.content .left .tabs .selected
+{
+    background-image:url("../images/tabiconsel.gif");
+    color:#1C7EBF;
+}
+.content .left .tabs a:hover
+{
+    color:#1C7EBF;
+}
+.content .left .contact
+{
+    border-top:1px dotted #D7D7D9;
+    padding-top:12px;
+    padding-left:5px;
+    padding-bottom:10px;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+}
+.content .left .contact a
+{
+    text-decoration:none;
+    color:#1C7EBF;
+}
+.content .middle
+{
+    float:left;
+    width:499px;
+    border-left:1px solid #E7EBEC;
+    text-align:left;
+    position:relative;
+}
+.content .middle .textarea
+{
+    padding:10px;
+    width:480px;
+    margin-bottom:205px;
+}
+.content .middle .textarea h1
+{
+    color:#1C7EBF;
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    line-height:24px;
+    padding-bottom:20px;
+    font-weight:normal;
+}
+.content .middle .textarea p
+{
+    line-height:14px;
+    padding-bottom:10px;
+    padding-top:5px;
+    width:480px;
+}
+.content .middle .textarea h2
+{
+    color:#1C7EBF;
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    line-height:16px;
+    padding-bottom:5px;
+    margin-bottom:5px;
+    border-bottom:1px solid #E9EEEF;
+    font-weight:normal;
+    padding-top:20px;
+}
+
+.content .middle .GreenBox
+{
+    background-image:url("../images/topbuttongreen.gif");
+    background-repeat:no-repeat;
+    background-position:top center;
+    padding-top:6px;
+}
+.content .middle .GreenBox .inside
+{
+    border:1px solid #EAEEC7;
+    border-top:none;
+    padding-left:10px;
+    padding-right:10px;
+    height:200px;
+}
+.content .middle .GreenBox .inside h2,
+.content .middle .BlueBox .inside h2
+{
+    border:none;
+    text-align:center;
+    padding-top:20px;
+	 color:#1C7EBF;
+	 padding-bottom:10px;
+}
+
+.content .middle .BlueBox
+{
+    background-image:url("../images/topbuttonblue.gif");
+    background-repeat:no-repeat;
+    background-position:top center;
+    padding-top:6px;
+}
+.content .middle .BlueBox .inside
+{
+    border:1px solid #E8F2F4;
+    border-top:none;
+    padding-left:10px;
+    padding-right:10px;
+    height:200px;
+}
+.content .middle .BlueBox .inside .texthidden,
+.content .middle .GreenBox .inside .texthidden
+{
+    height:130px;
+    overflow:hidden;
+}
+.content .middle .BlueBox .inside .texthidden img,
+.content .middle .GreenBox .inside .texthidden img
+{
+    padding:5px;
+}
+
+.content .middle .BlueBox .inside .GreyButton,
+.content .middle .GreenBox .inside .GreyButton
+{
+    padding-top:6px;
+    height:15px;
+    line-height:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90px;
+}
+.content .middle .BlueBox .inside .GreyButton .middlepart,
+.content .middle .GreenBox .inside .GreyButton .middlepart
+{
+    height:15px;
+    line-height:15px;
+    color:#F1F1F3;
+    width:72px;
+    text-align:center;
+    background-image:url("../images/GreyButtonMiddle.gif");
+    background-repeat:repeat-x;
+    float:left;
+}
+.content .middle .BlueBox .inside .GreyButton .middlepart a,
+.content .middle .GreenBox .inside .GreyButton .middlepart a
+{
+    color:#F1F1F3;
+    text-decoration:none;
+    color:#F1F1F3;
+}
+.content .middle .BlueBox .inside .GreyButton .startpart,
+.content .middle .GreenBox .inside .GreyButton .startpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonStart.gif");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+
+.content .middle .BlueBox .inside .GreyButton .endpart,
+.content .middle .GreenBox .inside .GreyButton .endpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonEnd.gif");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+.content .right
+{
+    float:left;
+    width:308px;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    overflow:hidden;
+}
+
+.content .right .FeaturedElement1
+{
+    height:124px;
+    background-color:#E0E1E3;
+    text-align:left;
+    position:relative;
+    border:1px solid #BFBEC3;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.content .right .FeaturedElement1 h2
+{
+    color:#6C7073;
+    font-size:24px;
+    font-weight:normal;
+    width:175px;
+    margin:0px;
+    padding:0px;
+    padding-left:10px;
+    line-height:26px;
+    padding-bottom:2px;
+}
+.content .right .FeaturedElement1 p
+{
+    width:170px;
+    padding-left:10px;
+    padding-top:3px;
+    padding-bottom:5px;
+    line-height:13px;
+}
+.content .right .FeaturedElement1 img
+{
+    position:absolute;
+    right:0px;
+    top:0px;
+    border-left:14px solid #F0AD2A;
+    height:124px;
+    width:106px;
+}
+.content .right .FeaturedElement2
+{
+    height:114px;
+    background-color:#FAFCFB;
+    text-align:left;
+    position:relative;
+    border:1px solid #BFBEC3;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.content .right .FeaturedElement2 h2
+{
+    color:#C1D02F;
+    font-size:24px;
+    font-weight:normal;
+    width:125px;
+    margin:0px;
+    padding:0px;
+    line-height:28px;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+.content .right .FeaturedElement2 p
+{
+    width:120px;
+    padding-left:10px;
+    padding-bottom:5px;
+    padding-top:1px;
+    line-height:13px;
+}
+.content .right .FeaturedElement2 img
+{
+    position:absolute;
+    right:0px;
+    top:10px;
+    width:170px;
+    height:75px;
+}
+
+.content .right .FeaturedElement3
+{
+    height:170px;
+    text-align:left;
+    position:relative;
+    border:1px solid #BFBEC3;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.content .right .FeaturedElement3 h2
+{
+    color:#9ACDEA;
+    font-size:24px;
+    font-weight:normal;
+    width:160px;
+    margin:0px;
+    padding:0px;
+    padding-left:10px;
+    line-height:26px;
+    padding-top:4px;
+}
+.content .right .FeaturedElement3 p
+{
+    width:145px;
+    padding-left:10px;
+    padding-top:8px;
+    padding-bottom:5px;
+    line-height:13px;
+}
+.content .right .FeaturedElement3 img
+{
+    position:absolute;
+    border:2px solid #9ACDEA;
+    right:5px;
+    top:5px;
+    width:125px;
+    height:125px;
+}
+
+
+
+.UnderContainer
+{
+    width:994px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding-bottom:20px;
+    position:relative;
+}
+.UnderContainer .exploring
+{
+    position:absolute;
+    left:20px;
+    width:750px;
+    line-height:15px;
+    font-size:9px;
+    text-align:left;
+    padding-bottom:20px;
+}
+.UnderContainer .designer
+{
+    position:absolute;
+    right:20px;
+}
+
+.UnderContainer .exploring a
+{
+    text-decoration:none;
+    font-size:9px;
+}
+.UnderContainer .designer a
+{
+    text-decoration:none;
+}
+
+.UnderContainer .exploring a:hover,
+.UnderContainer .designer a:hover
+{
+    text-decoration:underline;
+}
+
+.content .right .RightPanel
+{
+    height:207px;
+    width:308px;
+    background-image:url("../images/RightPanel.gif");
+	 background-repeat:no-repeat;
+    margin-bottom:5px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+
+.content .right .RightPanel .inside
+{
+    border-top:none;
+    padding-left:10px;
+    padding-right:10px;
+    height:150px;
+}
+.content .right .RightPanel .inside h2
+{
+    border:none;
+    text-align:center;
+    padding-top:24px;
+	 color:#1C7EBF;
+	 padding-bottom:10px;
+}
+
+.content .right .RightPanel .inside .texthidden
+{
+    height:130px;
+    overflow:hidden;
+}
+.content .right .RightPanel .inside .texthidden img
+{
+    padding:5px;
+}
+.content .right .RightPanel .inside .GreyButton
+{
+    padding-top:6px;
+    height:15px;
+    line-height:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90px;
+}
+.content .right .RightPanel .inside .GreyButton .middlepart
+{
+    height:15px;
+    line-height:15px;
+    color:#F1F1F3;
+    width:72px;
+    text-align:center;
+    background-image:url("../images/GreyButtonMiddle.gif");
+    background-repeat:repeat-x;
+    float:left;
+}
+.content .right .RightPanel .inside .GreyButton .middlepart a
+{
+    color:#F1F1F3;
+    text-decoration:none;
+    color:#F1F1F3;
+}
+.content .right .RightPanel .inside .GreyButton .startpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonStart.gif");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+
+.content .right .RightPanel .inside .GreyButton .endpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonEnd.gif");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+
+.content .middle .textareapage
+{
+    padding:10px;
+    width:480px;
+    margin-bottom:-10px;
+}
+.content .middle .textareapage h1
+{
+    color:#1C7EBF;
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    line-height:24px;
+    padding-bottom:20px;
+    font-weight:normal;
+}
+.content .middle .textareapage p
+{
+    margin:0px;
+    padding:0px;
+    line-height:14px;
+    padding-bottom:10px;
+    padding-top:5px;
+    width:480px;
+    overflow:hidden;
+}
+.content .middle .textareapage table
+{
+    max-width:480px;
+}
+.content .middle .textareapage table tr td p
+{
+    width:auto;
+}
+.content .middle .textareapage h2
+{
+    color:#1C7EBF;
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    line-height:20px;
+    padding-bottom:5px;
+    margin-bottom:5px;
+    border-bottom:1px solid #E9EEEF;
+    font-weight:normal;
+    padding-top:10px;
+    padding-left:5px;
+}
+.content .middle .textareapage img
+{
+    padding:5px;
+}
+.HiddenHomeLink
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:135px;
+    width:145px;
+}
+ul,ol
+{
+    margin:0px;
+    padding:0px;
+    margin-left:30px;
+    padding-bottom:10px;
+}
+ul li,ol li
+{
+    padding-bottom:5px;
+}
+table
+{
+    background-color:#B1B2B5;
+}
+table tr td
+{
+    background-color:White;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+
+
+.content .right  .FeaturedElement1 .GreyButton,
+.content .right  .FeaturedElement2 .GreyButton,
+.content .right  .FeaturedElement3 .GreyButton
+{
+    height:15px;
+    line-height:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90px;
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+.content .right .FeaturedElement1 .GreyButton .middlepart,
+.content .right .FeaturedElement2 .GreyButton .middlepart,
+.content .right .FeaturedElement3 .GreyButton .middlepart
+{
+    height:15px;
+    line-height:15px;
+    float:left;
+    color:#F1F1F3;
+    width:72px;
+    text-align:center;
+    background-image:url("../images/GreyButtonMiddle.png");
+    background-repeat:repeat-x;
+    behavior: url("images/iepngfix.htc");
+    
+}
+.content .right .FeaturedElement1 .GreyButton .middlepart a,
+.content .right .FeaturedElement2 .GreyButton .middlepart a,
+.content .right .FeaturedElement3 .GreyButton .middlepart a
+{
+    color:#F1F1F3;
+    text-decoration:none;
+    color:#F1F1F3;
+}
+.content .right .FeaturedElement1 .GreyButton .startpart,
+.content .right .FeaturedElement2 .GreyButton .startpart,
+.content .right .FeaturedElement3 .GreyButton .startpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonStart.png");
+    behavior: url("images/iepngfix.htc");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+
+.content .right .FeaturedElement1 .GreyButton .endpart,
+.content .right .FeaturedElement2 .GreyButton .endpart,
+.content .right .FeaturedElement3 .GreyButton .endpart
+{
+    height:15px;
+    line-height:15px;
+    background-image:url("../images/GreyButtonEnd.png");
+    behavior: url("images/iepngfix.htc");
+    background-repeat:no-repeat;
+    float:left;
+    width:9px;
+}
+.ContactText
+{
+    padding-right:5px;
+    text-align:right;
+}
+.ContactBox
+{
+    text-align:left;
+}
+.ErrorBox
+{
+    text-align:left;
+}
+
+
+.NiceUl
+{
+    margin: 0px;
+    padding: 0px;
+    padding-left:20px;
+    margin-left:20px;
+}
+.NiceUl li
+{
+    margin: 0px;
+    padding: 0px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.NiceUl li a
+{
+    text-decoration:none;    
+    margin:0px;
+    padding:0px;
+}
+.NiceUl li a:hover
+{
+    text-decoration:underline;
+}
+.PanelContainer
+{
+    margin:0px;
+    padding:0px;
+}
+
+.BackTop
+{
+    text-align:right;
+}
+.BackTop a
+{
+    text-decoration:none;
+}
+
+.content .middle .textareapage .Testimonials h2
+{
+    margin:0px;
+    padding:0px;
+    padding-top:5px;
+    border:none;
+    font-size:12px;
+    color:#67686C;
+    font-weight:700;
+}
+.content .middle .textareapage .Testimonials .TheDate
+{
+    line-height:14px;
+    font-style:italic;
+    text-align:right;
+}
+.content .middle .textareapage .Testimonials img
+{
+    padding-left:0px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-top:0px;
+}
+
+.FinalImageLeft
+{
+    float:left;
+    padding-left:0px;
+    padding-top:0px;
+    padding-right:5px;
+    padding-bottom:5px;
+}
+.FinalImageRight
+{
+    float:right;
+    padding-left:5px;
+    padding-top:0px;
+    padding-bottom:5px;
+    padding-right:0px;
+}
+.FinalImageCenter
+{
+    text-align:center;
+    padding:5px;
+    margin-left:auto;
+    margin-right:auto;
+}

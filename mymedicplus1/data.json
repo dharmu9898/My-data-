@@ -1,0 +1,317 @@
+[
+   {
+   "name":"abhyanga-snana",
+    "location":"ayurveda/abhyanga-snana.html"
+   },
+   {
+   "name":"basti",
+    "location":"ayurveda/basti.html"
+   },
+   {
+   "name":"dhanya-kizh",
+    "location":"ayurveda/dhanya-kizh.html"
+   },
+   {
+   "name":"dhara",
+    "location":"ayurveda/dhara.html"
+   },
+   {
+   "name":"ela-kizhi",
+    "location":"ayurveda/ela-kizhi.html"
+   },
+   {
+   "name":"gandossham-kabalam",
+    "location":"ayurveda/gandossham-kabalam.html"
+   },
+   {
+   "name":"kashya-dhara",
+    "location":"ayurveda/kashya-dhara.html"
+   },
+   {
+   "name":"kativasthi",
+    "location":"ayurveda/kativasthi.html"
+   },
+   {
+   "name":"ksheera-dhara",
+    "location":"ayurveda/ksheera-dhara.html"
+   },
+   {
+   "name":"lepam",
+    "location":"ayurveda/lepam.html"
+   },
+   {
+   "name":"muthira-kizhi",
+    "location":"ayurveda/muthira-kizh.html"
+   },
+   {
+   "name":"mutta-kizh",
+    "location":"ayurveda/mutta-kizh.html"
+   },
+   {
+   "name":"naranga-kizhi",
+    "location":"ayurveda/naranga-kizhi.html"
+   },
+   {
+   "name":"netra-sekam",
+    "location":"ayurveda/netra-sekam.html"
+   },
+   {
+   "name":"njavarakizhi",
+    "location":"ayurveda/njavarakizhi.html"
+   },
+   {
+   "name":"pizhichil",
+    "location":"ayurveda/pizhichil.html"
+   },
+   {
+   "name":"podikizhi",
+    "location":"ayurveda/podikizhi.html"
+   },
+   {
+   "name":"accupunctrure",
+    "location":"diseases/accupuncture.html"
+   },
+   {
+   "name":"acute-lymphoblastic-leukemia",
+    "location":"diseases/acute-lymphoblastic-leukemia.html"
+   },
+   {
+   "name":"acute-myeloid-leukemia",
+    "location":"diseases/acutte-myeloid-leukemia.html"
+   },
+   {
+   "name":"aids-related-cancers",
+    "location":"diseases/aidsrelated-cancers.html"
+   },
+   {
+   "name":"alzheimers-disease",
+    "location":"diseases/alzheimers-disease.html"
+   },
+   {
+   "name":"anal-cancer",
+    "location":"diseases/anal-cancer.html"
+   },
+   {
+   "name":"appendix-cancer",
+    "location":"diseases/appendix-cancer.html"
+   },
+   {
+   "name":"arteriovenous-fistula",
+    "location":"diseases/arteriovenous-fistula.html"
+   },
+   {
+   "name":"ashermans-syndrome",
+    "location":"diseases/ashermans-syndrome.html"
+   },
+   {
+   "name":"astrocytoma",
+    "location":"diseases/astrocytoma.html"
+   },
+   {
+   "name":"basal-cell-carcinoma",
+    "location":"diseases/basal-cell-carcinoma.html"
+   },
+   {
+   "name":"bile-duct-cancer",
+    "location":"diseases/bile-duct-cancer.html"
+   },
+   {
+   "name":"carcinoid-tumor",
+    "location":"diseases/carcinoid-tumor.html"
+   },
+   {
+   "name":"dentures",
+    "location":"diseases/dentures.html"
+   },
+   {
+   "name":"embroyonal",
+    "location":"diseases/embroyonal.html"
+   },
+   {
+   "name":"gallbladder",
+    "location":"diseases/gallbladder-cancer.html"
+   },
+   {
+   "name":"hair-removal",
+    "location":"diseases/hair-removal.html"
+   },
+   {
+   "name":"intraocular",
+    "location":"diseases/intraocular-melanoma.html"
+   },
+   {
+   "name":"jaw-calf-myscle-hypertrophy",
+    "location":"diseases/jaw-calfmyscle-hypertrophy.html"
+   },
+   {
+   "name":"macroglobulinemia-waldenstrom",
+    "location":"diseases/macroglobulinemia-waldenstrom.html"
+   },
+   {
+   "name":"nasopharyngeal-cancer",
+    "location":"diseases/nasopharyngeal-cancer.html"
+   },
+   {
+   "name":"oral-cavity-cancer",
+    "location":"diseases/oral-cavity-cancer.html"
+   },
+   {
+   "name":"pancreatic-cancer",
+    "location":"diseases/pancreatic-cancer.html"
+   },
+   {
+   "name":"rectal-cancer",
+    "location":"diseases/rectal-cancer.html"
+   },
+   {
+   "name":"salivary-gland-cancer",
+    "location":"diseases/salivary-gland-cancer.html"
+   },
+   {
+   "name":"t-cell-lympoma-cutaneous",
+    "location":"diseases/t-cell-lympoma-cutaneous.html"
+   },
+   {
+   "name":"unusual-cancers-of-childhood",
+    "location":"diseases/unusual-cancers-of-childhood.html"
+   },
+   {
+   "name":"vaginal-cancer",
+    "location":"diseases/vaginal-cancer.html"
+   },
+   {
+   "name":"waldenstrom-macroglobulinemia",
+    "location":"diseases/waldenstrom-macroglobulinemia.html"
+   },
+   {
+   "name":"hospitals in argentina",
+    "location":"hospitals/argentina/index.html"
+   },
+   {
+   "name":"hospitals in australia",
+    "location":"hospitals/australia/index.html"
+   },
+   {
+   "name":"hospitals in austria",
+    "location":"hospitals/austria/index.html"
+   },
+   {
+   "name":"hospitals in belgium",
+    "location":"hospitals/belgium/index.html"
+   },
+   {
+   "name":"hospitals in bolivia",
+    "location":"hospitals/bolivia/index.html"
+   },
+   {
+   "name":"hospitals in brazil",
+    "location":"hospitals/brazil/index.html"
+   },
+   {
+   "name":"hospitals in canada",
+    "location":"hospitals/canada/index.html"
+   },
+   {
+   "name":"hospitals in chile",
+    "location":"hospitals/chile/index.html"
+   },
+   {
+   "name":"hospitals in china",
+    "location":"hospitals/china/index.html"
+   },
+   {
+   "name":"hospitals in colombia",
+    "location":"hospitals/colombia/index.html"
+   },
+   {
+   "name":"hospitals in costa-rica",
+    "location":"hospitals/costa-rica/index.html"
+   },
+   {
+   "name":"hospitals in croatia",
+    "location":"hospitals/croatia/index.html"
+   },
+   {
+   "name":"hospitals in denmark",
+    "location":"hospitals/denmark/index.html"
+   },
+   {
+   "name":"hospitals in egypt",
+    "location":"hospitals/egypt/index.html"
+   },
+   {
+   "name":"hospitals in fiji",
+    "location":"hospitals/fiji/index.html"
+   },
+   {
+   "name":"hospitals in france",
+    "location":"hospitals/france/index.html"
+   },
+   {
+   "name":"hospitals in germany",
+    "location":"hospitals/germany/index.html"
+   },
+   {
+   "name":"hospitals in greece",
+    "location":"hospitals/greece/index.html"
+   },
+   {
+   "name":"hospitals in guatemala",
+    "location":"hospitals/guatemala/index.html"
+   },
+   {
+   "name":"hospitals in hungary",
+    "location":"hospitals/hungary/index.html"
+   },
+   {
+   "name":"hospitals in india",
+    "location":"hospitals/india/index.html"
+   },
+   {
+   "name":"hospitals in ireland",
+    "location":"hospitals/ireland/index.html"
+   },
+   {
+   "name":"hospitals in israel",
+    "location":"hospitals/israel/index.html"
+   },
+   {
+   "name":"hospitals in japan",
+    "location":"hospitals/jordan/index.html"
+   },
+   {
+   "name":"hospitals in malaysia",
+    "location":"hospitals/malaysia/index.html"
+   },
+   {
+   "name":"hospitals in mauritius",
+    "location":"hospitals/mauritius/index.html"
+   },
+   {
+   "name":"hospitals in mexico",
+    "location":"hospitals/mexico/index.html"
+   },
+   {
+   "name":"hospitals in new-zealand",
+    "location":"hospitals/new-zealand/index.html"
+   },
+   {
+   "name":"hospitals in panama",
+    "location":"hospitals/panama/index.html"
+   },
+   {
+   "name":"hospitals in philippines",
+    "location":"hospitals/philippines/index.html"
+   },
+   {
+   "name":"hospitals in poland",
+    "location":"hospitals/poland/index.html"
+   },
+   {
+   "name":"hospitals in saudi-arabia",
+    "location":"hospitals/saudi-arabia/index.html"
+   }
+   
+   
+   
+]

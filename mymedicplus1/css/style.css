@@ -1,0 +1,117 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+
+}
+
+.tp-banner{
+	width:100%;
+	position:relative;
+}
+
+.tp-banner-fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+}
+div {
+    text-align: justify;
+
+}
+
+.liststyle ul > li {
+	list-style-type : square;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left:20px;
+}
+
+
+
+/*Margin top class*/
+
+.mt-5{
+	margin-top:12px;
+}
+
+.mt-4{
+	margin-top:10px;
+}
+.mt-3{
+	margin-top:8px;
+}
+/*Margin bottom classes*/
+.mb-5{
+	margin-top:12px;
+}
+.mb-4{
+	margin-top:10px;
+}
+
+/*padding classes*/
+.pl-5{
+	padding-left: 15px;
+}
+.pl-4{
+	padding-left: 15px;
+}
+.pl-3{
+	padding-left: 15px;
+}
+.pr-5{
+	padding-left: 10px;
+}
+
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/*images size country*/
+
+.size1{
+	width:150px;
+}
+figcaption{
+	font-size:30px;
+	font-weight: bold;
+}
+/*search section of surgery-treatment*/
+   	#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 20px;
+  padding: 25px 20px 25px 40px;
+  border: 3px solid #85C1E9;
+  margin-bottom: 12px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+
+  

@@ -1,0 +1,119 @@
+[18-Jul-2019 14:22:46 UTC] PHP Warning:  Error while sending QUERY packet. PID=1083056 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[18-Jul-2019 14:38:31 UTC] PHP Warning:  Error while sending QUERY packet. PID=1156019 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[24-Sep-2019 16:47:38 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '30'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_category
+[24-Sep-2019 16:47:38 UTC] PHP Warning:  Error while sending QUERY packet. PID=2147445 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[25-Sep-2019 00:57:03 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1036'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[25-Sep-2019 00:57:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=249693 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[27-Sep-2019 12:15:17 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[27-Sep-2019 12:15:17 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '558'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[27-Sep-2019 12:15:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=2347716 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[30-Sep-2019 11:36:20 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[30-Sep-2019 11:36:20 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '366'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[30-Sep-2019 11:36:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=3729455 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[30-Sep-2019 11:36:20 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[30-Sep-2019 11:36:20 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '915'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[30-Sep-2019 11:36:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=3719156 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[02-Oct-2019 15:01:49 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[02-Oct-2019 15:01:49 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '16'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_category
+[02-Oct-2019 15:01:49 UTC] PHP Warning:  Error while sending QUERY packet. PID=3889848 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[14-Oct-2019 21:24:12 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[14-Oct-2019 21:24:12 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1619'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[14-Oct-2019 21:24:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=3398421 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[15-Oct-2019 14:37:26 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[15-Oct-2019 14:37:26 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '63'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[15-Oct-2019 14:37:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=2583072 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[15-Oct-2019 14:37:26 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[15-Oct-2019 14:37:26 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1203'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[15-Oct-2019 14:37:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=2601857 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[23-Oct-2019 19:29:02 UTC] PHP Warning:  mysqli_query(): (70100/1317): Query execution was interrupted in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[23-Oct-2019 19:29:02 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1189'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[23-Oct-2019 19:29:02 UTC] PHP Warning:  Error while sending QUERY packet. PID=2666161 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[24-Oct-2019 18:27:50 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1032'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[24-Oct-2019 18:27:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=2243541 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:34:10 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:34:10 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:36:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=1083666 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:36:04 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:36:05 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:36:06 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[26-Oct-2019 19:36:06 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[29-Oct-2019 10:49:39 UTC] WordPress database error Query execution was interrupted for query 	SELECT `term`.`name`, 
+									       `term`.`term_id`, 
+									       `taxo`.`parent` 
+									FROM   wp_terms AS `term` 
+									       INNER JOIN wp_term_taxonomy AS `taxo` 
+									               ON `term`.`term_id` = `taxo`.`term_id` 
+									WHERE  `taxo`.`parent` = '1411'  made by do_action_ref_array('datc_cronjob_fillter_hook'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, datc_cronjob_fillter_exec, _datc_filter_tag
+[29-Oct-2019 10:49:39 UTC] PHP Warning:  Error while sending QUERY packet. PID=2849426 in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:43 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:43 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:43 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:54 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:55 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007
+[22-Apr-2020 06:19:55 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/xwpdxx4grz10/public_html/mymedicplus.com/news/wp-includes/wp-db.php on line 2007

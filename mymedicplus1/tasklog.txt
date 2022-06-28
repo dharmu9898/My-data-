@@ -1,0 +1,80 @@
+.............................................
+
+Sample Search Engine
+==============================
+http://holidaylandmark.com/cookbooks
+https://www.devopsschool.com/interview
+https://devopsschool.com/courses/
+
+
+
+
+http://www.mymedicplus.com/
+=======================================
+Top Menu
+=====================
+Home | Surgery & Treatments | Hospitals | Procedures | Ayurveda | Health Guide | Contact Us
+
+-----------------------------------------------------------------
+Make an Appointment	TO 	Free Surgery Estimation Quote
+-----------------------------------------------------------------
+
+
+Quality Surgery at Affordable Cost
+500+ Hospital Network in 40 Countries
+Daily Guide for Health & Fitness
+5,000 Satisfied Customers Woroldwide
+
+------------------------------------------------
+Medical Surgery | Departments | Patient life | Baby Birth
+What is Medical Tourism? | Why Medical Tourism? | Hot Destinations? | Why MyMedicPlus? 
+
+
+- Meet Our Specialists - Delete it
+
+
+Latest News from My Medic Plus
+------------------------------------
+feed from http://www.mymedicplus.com/news/
+Top 20 in Nice way
+
+====================================
+BOOTOM MENU
+==============================
+Services - services/index.html
+Specilaties - specilaties/index.html
+Events - events/index.html
+About Us - about-us/index.html
+Why Us - why-us/index.html
+
+Timetable - Remove it
+Departments  - Remove it
+
+----------------------------------------------
+LATEST TWEETS - Come from Twitter
+FETCH FROM TWITTER
+
+
+
+NEWSLETTER
+===================
+FUTURE - using phplist...HOLD FOR IT.
+
+NEWSLETTER - AS IT IS
+
+
+GET IN TOUCH - Take Addresses from DevOpsSchool
+
+Email - contact@mymedicplus.com
+
+Cleanup
+=========================
+- Doctors
+- Destinations
+- Forum
+
+Contacts
+- info@surgeryplanet.com
+- Social Handlers
+- Phone(DM Team)
+- Address

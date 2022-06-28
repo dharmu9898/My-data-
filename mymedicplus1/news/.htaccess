@@ -1,0 +1,25 @@
+# BEGIN SF Move Login
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /news/
+    RewriteRule ^postpass/?$ /news/wp-login.php?action=postpass [QSA,L]
+    RewriteRule ^logout/?$ /news/wp-login.php?action=logout [QSA,L]
+    RewriteRule ^lostpassword/?$ /news/wp-login.php?action=lostpassword [QSA,L]
+    RewriteRule ^resetpass/?$ /news/wp-login.php?action=resetpass [QSA,L]
+    RewriteRule ^register/?$ /news/wp-login.php?action=register [QSA,L]
+    RewriteRule ^medical-user/?$ /news/wp-login.php [QSA,L]
+</IfModule>
+# END SF Move Login
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /news/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /news/index.php [L]
+</IfModule>
+
+# END WordPress
