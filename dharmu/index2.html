@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Learn jQuery</title>
+   <style>
+       body {font-family: arial}
+       #box{
+        
+        padding: 10px;
+        border: 1px solid #000;
+       }
+   </style>
+</head>
+<body>
+    <h1>Devops School : jQuery Form Events</h1>
+    <form action="" id="sform">
+        
+        <label for="">Name</label> <input type="text" id="sname"> <br><br>
+        <label for="">Class</label> <input type="text" id="sclass"> <br><br>
+
+        <label for="">Country</label> 
+            <select id="scountry">
+                <option value="india">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Sri lanka">Sri Lanka</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+           <br><br> 
+          <input type="submit"> 
+    </form>
+    
+    <script src="js/jquery.js"></script>
+    <script>
+    	$(document).ready(function(){
+            $('#sname,#sclass,#scountry').focus(function(){
+            $(this).css('background-color','lime');  
+            });
+
+            $('#sname,#sclass,#scountry').blur(function(){
+            $(this).css('background-color','');  
+            });
+
+             $('#scountry').change(function(){
+            $(this).css('background-color','red');  
+            });
+
+             $('#sname,#sclass').select(function(){
+            $(this).css('background-color','yellow');  
+            });
+
+            //  $('#sform').submit(function(){
+            //    alert("Form Submitted")  
+            // });
+    	});
+    </script>
+</body>
+</html>
