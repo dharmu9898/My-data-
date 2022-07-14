@@ -1,0 +1,69 @@
+  
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>github</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    
+         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <h1>Github tutorial</h1>
+    <button id = "btnRepos">Repos</button>
+    
+ 
+    <table id="get_all_data" class="table" style="width: 100%">
+        <thead>
+           <tr>
+           <th data-column_name="quote_no" width="30%">Name</th>
+                             
+            
+           </tr>
+        </thead>
+        <tbody>
+        </tbody>
+     </table>
+
+  
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script>
+   $(document).ready(function() {
+       
+    var dt = $('#get_all_data').DataTable({
+         "ajax": {
+         "paging": true,
+        "scrollX": true,
+        "lengthChange" : true,
+        "searching": true,
+        "ordering": true,
+         "processing": true,
+         "serverSide": true,
+          "url" : "{{url('https://api.github.com/users/amardeep18/gists')}}",
+         "dataSrc": 'data',
+         "type": "i",
+         "datatype": "json",
+         "crossDomain": false,
+      },
+      processing : true,
+        
+         responsive: true,
+         rowReorder: false,
+         columnDefs: [
+             {
+                "title": "Name",}, 
+            
+        ],
+         columns: [
+            { i: 'full_name' },
+         ],
+   });
+  
+});
+</script>
+</body>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>github</title>
+</head>
+<body>
+    <h1>Github tutorial</h1>
+    <button id = 'btnGit'>My Git Repository</button>
+   
+   
+    <div id = 'divResult'>
+
+    </div>
+<script>
+    const btnGit = document.getElementById("btnGit")
+    
+    
+   
+   
+
+    const divResult = document.getElementById("divResult")
+    btnGit.addEventListener("click", getGit)
+   
+    
+   
+   
+
+    async function getGit() {
+        clear();
+
+        
+        const url = "https://https://api.github.com/gists{/amardeep18}"
+        const response = await fetch(url)
+        const result = await response.json()
+        
+        result.items.forEach(i=>
+        {
+            const anchor = document.createElement("a")
+            anchor.href = i.html_url;
+            anchor.textContent = i.full_name;
+            divResult.appendChild(anchor)
+            divResult.appendChild(document.createElement("br"))
+         })
+    }
+    function clear(){
+        while(divResult.firstChild) 
+            divResult.removeChild(divResult.firstChild)
+    }
+    </script>
+</body>
+</html>
